@@ -39,12 +39,12 @@ This makes it easy to edit scripts on your computer and run them inside the VM.
 
 4. Run a script:
    ```bash
-   bash script-1
+   bash script-1.sh
    ```
 
 You can also make a script executable and run it directly:
 
 ```bash
-chmod +x script-1
-./script-1
+chmod +x script-1.sh
+./script-1.sh
 ```
