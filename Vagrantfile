@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
   # Provider-specific settings for VirtualBox
   config.vm.provider "virtualbox" do |vb|
     # Allocate 1GB RAM to the VM
-    vb.memory = "1024"
+    vb.memory = "2048"
     # Set the VM to use 2 CPU cores
     vb.cpus = 2
   end
